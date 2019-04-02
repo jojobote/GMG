@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+tests:
+   path: /tests
+   controller: App\Tests\Form\Type::testSubmitValidData
